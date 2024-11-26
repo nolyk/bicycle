@@ -1,0 +1,268 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-image: url("./img/background.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 13px;
+}
+.header-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 43px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+ul li {
+  color: white;
+  font-size: 12px;
+}
+ul li:hover {
+  color: rgba(245, 117, 32, 1);
+  font-size: 12px;
+}
+.logo-div {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.header-text p:nth-child(1) {
+  color: white;
+  font-size: 96px;
+  letter-spacing: 2%;
+  font-weight: 700;
+  width: 100px;
+}
+.header-text p:nth-child(2) {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1%;
+  font-weight: 600;
+}
+.header-text button {
+  background-color: rgba(245, 117, 32, 1);
+  width: 180px;
+  height: 52px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+main {
+  background-color: grey;
+  height: 250vh;
+}
+.text-big {
+  color: black;
+  font-size: 64px;
+  letter-spacing: 5%;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 109px;
+}
+.cards { 
+  display: grid;
+  grid-gap: 40px;
+  grid-template-areas:
+    "card1 card1 card1";
+  width: 1000px;
+}
+footer{
+    background-color: rgba(245, 117, 32, 1);
+    height: 636px;
+}
+.footer-div{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-inputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.footer-div img{
+    width: 1072px;
+}
+.footer-text{
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+}
+.inputs{
+    display: flex;
+    gap: 10px;
+}
+.inputs input{
+    width: 302px;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.input2{
+    display: flex;
+    gap: 10px;
+}
+.input2 input{
+    width: 302px;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.input3 input{
+    width: 608px;
+    height: 154px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.input3{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.input3 button{
+    color: rgba(245, 117, 32, 1);
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    width: 608px;
+    height: 52px;
+}
+.thread-footer-div{
+  height: 370px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 500px;
+}
+.thread-footer-div ul{
+  display: block;
+}
+.footer-dv-ul{
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+.grid-section{
+  width: 70%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-areas: 
+  "card1 card1 card1"
+  "card2 card3 card4"
+  "card2 card5 card6";
+  grid-gap: 16px;
+  height: 100vh;
+}
+.card1{
+  background-color: rgba(245, 117, 32, 1);
+  grid-area: card1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px; 
+  }
+  .card1 img{
+    transform: translateX(80px);
+    transform: translateY(103px);
+  }
+.card2{
+  background-color: black;
+  grid-area: card2;
+  border-radius: 10px;
+}
+.card3{
+  background-color: black;
+  grid-area: card3;
+  border-radius: 10px;
+}
+.card4{
+  background-color: black;
+  grid-area: card4;
+  border-radius: 10px;
+}
+.card4 img{
+  position: absolute;
+  top: 1755px;
+  transform: translateX(210px);
+}
+.card5{
+  background-color: black;
+  grid-area: card5;
+  border-radius: 10px;
+}
+.card5 img{
+  transform: translateX(230px)
+}
+.card6{
+  background-color: black;
+  grid-area: card6;
+  border-radius: 10px;
+}
+.card6 img{
+  transform: translateX(260px)
+
+}
+.section-cards-1{
+  background-color: black;
+  width: 400px;
+  height: 462px;
+  border-radius: 10px;
+  color: white;
+}
+.section-cards-1:hover{
+  background-color: rgba(245, 117, 32, 1);
+  width: 400px;
+  height: 462px;
+  border-radius: 10px;
+  color: black;
+}
+.section-cards-1 p{
+  padding: 27px;
+}
+.section-cards-div-df{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.section-padding-div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
